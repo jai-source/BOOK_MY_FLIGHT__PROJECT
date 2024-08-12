@@ -142,7 +142,7 @@ while(True):
                 print("thanks for visiting!!")
                 continue
             else:
-                print("invalid input$$$")
+                print("invalid input:::::::::::::::::::::::::::::::::::::::::")
         else:
             print("incorrect password!!!!!!")
             continue
