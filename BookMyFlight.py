@@ -77,16 +77,16 @@ def selectFlight():
 while(True):
     print(""" **************----->>>>>>>>>>>>> [[BOOK MY FLIGHT]]<<<<<<<<<<<<<-----**************
           
-          1. Admin
-          2. User
-          3. Exit application""")
+          1. ADMIN
+          2. USER
+          3. EXIT APPLICATION""")
     choice=int(input("enter your choice (1/2/3)-- "))
 
     if choice ==2:
         print(""" WELCOME USER TO BOOK MY FLIGHT!!!!
-              1. View flights
-              2. Book flight
-              3. Exit """)
+              1. VIEW FLIGHTS
+              2. BOOK A FLIGHT
+              3. EXIT """)
         choice1=int(input("enter your choice (1/2/3)-- "))
         if choice1==1:
             viewFlights()
@@ -116,12 +116,12 @@ while(True):
         enterpassword=input("enter passwrd to log in-- ")
         if enterpassword == adminpass:
             print(""" WELCOME ADMIN TO BOOK MY FLIGH!!!!
-               1. update date
-               2. update time 
-               3. update terminal
-               4. add flight
-               5. delete flight
-               6. Exit""")
+               1. UPDATE DATE
+               2. UPDATE TIME 
+               3. UPDATE TERMINAL
+               4. ADD A FLIGHT
+               5. DELETE A FLIGHT
+               6. EXIT""")
             choice2 = int(input("enter your choice (1/2/3/4/5/6)"))
             if choice2 ==1:
                 updateDate()
